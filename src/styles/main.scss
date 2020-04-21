@@ -5,3 +5,30 @@
 body {
   background: $c-gray;
 }
+
+#game {
+  width: 210px;
+  height: 210px;
+  background: aquamarine;
+  margin: 10px auto;
+}
+
+.block {
+  width: 70px;
+  height: 70px;
+  float: left;
+  border: 1px solid black;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  line-height: 70px;
+  font-size: 50px;
+}
+
+.restart {
+  margin: 10px auto;
+  background: aqua;
+  color: white;
+  font-size: 20px;
+  display: block;
+}
