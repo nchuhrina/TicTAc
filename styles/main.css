@@ -1,0 +1,39 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background: #eee; }
+
+#game {
+  width: 210px;
+  height: 210px;
+  background: aquamarine;
+  margin: 10px auto; }
+
+.block {
+  width: 70px;
+  height: 70px;
+  float: left;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  color: white;
+  line-height: 70px;
+  font-size: 50px; }
+
+.restart {
+  margin: 10px auto;
+  background: aqua;
+  color: white;
+  font-size: 20px;
+  display: block; }
+
+/*# sourceMappingURL=main.css.map */
